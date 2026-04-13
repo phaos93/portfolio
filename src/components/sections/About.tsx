@@ -7,6 +7,7 @@ import { aboutText } from "@/data/personal";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { BentoCard } from "@/components/ui/BentoCard";
 import { GhostButton } from "@/components/ui/GhostButton";
+import { basePath } from "@/lib/utils";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -23,7 +24,7 @@ export function About() {
     { value: "Eng.", label: t({ pt: "Formação em Engenharia", en: "Engineering Background" }) },
   ];
 
-  const cvPath = locale === "pt" ? "/cv/Pedro_CV_PT.pdf" : "/cv/Pedro_CV_EN.pdf";
+  const cvPath = locale === "pt" ? `${basePath}/cv/Pedro_CV_PT.pdf` : `${basePath}/cv/Pedro_CV_EN.pdf`;
 
   return (
     <>

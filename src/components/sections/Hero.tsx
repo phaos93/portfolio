@@ -10,6 +10,7 @@ import { GradientButton } from "@/components/ui/GradientButton";
 import { GhostButton } from "@/components/ui/GhostButton";
 import { SocialIcon } from "@/components/ui/SocialIcon";
 import { ScrollIndicator } from "@/components/ui/ScrollIndicator";
+import { basePath } from "@/lib/utils";
 
 const container = {
   hidden: { opacity: 0 },
@@ -101,7 +102,7 @@ export function Hero() {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-accent/20 to-accent-secondary/20 blur-2xl" />
             <div className="gradient-border relative overflow-hidden rounded-2xl">
               <Image
-                src="/profilepic.jpg"
+                src={`${basePath}/profilepic.jpg`}
                 alt="Pedro Henrique - Full Stack Developer"
                 width={400}
                 height={400}
