@@ -1,26 +1,132 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ===== Custom Theme (Tailwind v4) ===== */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Colors - Dark palette */
+  --color-bg: #0A0A0F;
+  --color-surface: #12121A;
+  --color-surface-elevated: #1A1A26;
+  --color-border: #2A2A3A;
+  --color-text-primary: #F0F0F5;
+  --color-text-secondary: #9494A8;
+  --color-accent: #6D5AE6;
+  --color-accent-secondary: #E84ECF;
+  --color-accent-tertiary: #3DDC84;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* Light mode colors */
+  --color-bg-light: #FAFAFE;
+  --color-surface-light: #FFFFFF;
+  --color-surface-elevated-light: #F0F0F8;
+  --color-border-light: #E0E0EC;
+  --color-text-primary-light: #12121A;
+  --color-text-secondary-light: #5A5A72;
+
+  /* Font families */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Animations */
+  --animate-float: float 3s ease-in-out infinite;
+  --animate-bounce-slow: bounce-slow 2s ease-in-out infinite;
+  --animate-pulse-glow: pulse-glow 2s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes bounce-slow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 1; box-shadow: 0 0 8px var(--color-accent); }
+    50% { opacity: 0.7; box-shadow: 0 0 20px var(--color-accent); }
   }
 }
 
+/* ===== Base Styles ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark mode (default) */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Light mode */
+.light body {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-primary-light);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+.light ::-webkit-scrollbar-track {
+  background: var(--color-bg-light);
+}
+
+.light ::-webkit-scrollbar-thumb {
+  background: var(--color-border-light);
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(18, 18, 26, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+}
+
+.light .glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border-light);
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient border utility */
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-secondary));
+  z-index: -1;
 }
