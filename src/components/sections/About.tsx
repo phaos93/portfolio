@@ -20,7 +20,7 @@ export function About() {
   const stats = [
     { value: "5+", label: t({ pt: "Anos de Experiência", en: "Years of Experience" }) },
     { value: "10+", label: t({ pt: "Tecnologias Dominadas", en: "Technologies Mastered" }) },
-    { value: "3", label: t({ pt: "Empresas Atendidas", en: "Companies Served" }) },
+    { value: "6", label: t({ pt: "Empresas Atendidas", en: "Companies Served" }) },
     { value: "Eng.", label: t({ pt: "Formação em Engenharia", en: "Engineering Background" }) },
   ];
 

@@ -43,7 +43,7 @@ export function Navbar() {
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           {/* Logo */}
           <a href="#" className="text-lg font-bold gradient-text">
-            PH<span className="text-text-primary">.</span>
+            PHAOS<span className="text-text-primary">.</span>
           </a>
 
           {/* Desktop links */}
