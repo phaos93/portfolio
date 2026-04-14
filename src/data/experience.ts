@@ -70,7 +70,8 @@ export const experiences: ExperienceEntry[] = [
       pt: "Desenvolvedor Full Stack",
       en: "Full Stack Developer",
     },
-    period: "Nov 2020 – Dez 2025",
+    period: "Nov 2020 – Present",
+    isCurrent: true,
     description: [
       {
         pt: "Desenvolvimento e manutenção de endpoints back-end para regras de negócio e operações de banco de dados.",
