@@ -70,7 +70,7 @@ export const experiences: ExperienceEntry[] = [
       pt: "Desenvolvedor Full Stack",
       en: "Full Stack Developer",
     },
-    period: "Nov 2020 – Present",
+    period: "Nov 2023 – Present",
     isCurrent: true,
     description: [
       {
