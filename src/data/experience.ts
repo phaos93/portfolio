@@ -41,8 +41,8 @@ export const experiences: ExperienceEntry[] = [
       en: "Hologram",
     },
     role: {
-      pt: "Senior Software Engineer",
-      en: "Senior Software Engineer",
+      pt: "Engenheiro de Software",
+      en: "Software Engineer",
     },
     period: "Dez 2025 – Present",
     isCurrent: true,
