@@ -78,8 +78,7 @@ export const experiences: ExperienceEntry[] = [
       pt: "Engenheiro Backend",
       en: "Backend Engineer",
     },
-    period: "Set 2023 – Present",
-    isCurrent: true,
+    period: "Set 2023 – Jul 2026",
     description: [
       {
         pt: "Engenheiro backend único de uma plataforma imobiliária de venda de imóveis prontos e lançamentos (lotes e apartamentos), responsável pela API que serve tanto o site público quanto o sistema interno de gestão, em Node.js, TypeScript e PostgreSQL.",
