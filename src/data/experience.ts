@@ -14,24 +14,24 @@ export const experiences: ExperienceEntry[] = [
     isCurrent: true,
     description: [
       {
-        pt: "Desenvolvimento e manutenção de endpoints back-end para regras de negócio e operações de banco de dados.",
-        en: "Built and maintained back-end endpoints to handle business logic and database operations.",
+        pt: "Construção e manutenção do backend de um produto de plano de saúde pet com Node.js e TypeScript, cobrindo gestão de planos, cadastro de animais e processamento de pagamentos via Stripe.",
+        en: "Built and maintained the backend of a pet health insurance product with Node.js and TypeScript, covering plan management, pet registration, and payment processing through Stripe.",
       },
       {
-        pt: "Integração de APIs externas e documentação detalhada com Swagger.",
-        en: "Integrated external APIs and developed detailed documentation with Swagger.",
+        pt: "Integração de APIs externas e documentação de todos os endpoints com Swagger, dando ao frontend web e ao app mobile um contrato claro para desenvolver em paralelo.",
+        en: "Integrated external APIs and documented every endpoint with Swagger, giving the web frontend and the mobile app a clear contract to build against.",
       },
       {
-        pt: "Criação de testes unitários para validar e garantir a confiabilidade das funcionalidades.",
-        en: "Created unit tests to validate and ensure feature reliability.",
+        pt: "Criação de scripts para popular o banco de dados a partir de grandes volumes de JSON e PDF, transformando dados dispersos em registros limpos e consultáveis para o app.",
+        en: "Wrote scripts to seed the database from large JSON and PDF sources, turning scattered data into clean, queryable records the app can rely on.",
       },
       {
-        pt: "Contribuição no front-end com React.js, Next.js e TailwindCSS.",
-        en: "Contributed to front-end development using React.js, Next.js, and TailwindCSS.",
+        pt: "Testes unitários nas regras de negócio e no fluxo de pagamento para pegar regressões cedo.",
+        en: "Added unit tests around the business rules and payment flow to catch regressions early.",
       },
       {
-        pt: "Deploy e gerenciamento de projetos na Railway e AWS, garantindo estabilidade e escalabilidade.",
-        en: "Deployed and managed projects on Railway and AWS, ensuring stability and scalability.",
+        pt: "Deploy e gestão dos serviços na Railway e AWS, além de contribuição no frontend com React, Next.js e TailwindCSS.",
+        en: "Deployed and managed the services on Railway and AWS, and contributed to the frontend with React, Next.js, and TailwindCSS.",
       },
     ],
   },
@@ -48,16 +48,24 @@ export const experiences: ExperienceEntry[] = [
     isCurrent: true,
     description: [
       {
-        pt: "Extração e processamento de dados em larga escala utilizando Python.",
-        en: "Large-scale data extraction and processing using Python.",
+        pt: "Construção de um SaaS interno que concilia extratos bancários e faturas de cartão contra um ERP externo para um time de BPO financeiro, substituindo um processo manual baseado em planilhas. Uma conciliação que levava horas passou a rodar em 5 a 15 minutos. Backend assíncrono em FastAPI (SQLAlchemy 2.0, PostgreSQL, Pydantic v2) e frontend em Next.js 14 com TypeScript.",
+        en: "Built an internal SaaS that reconciles bank statements and credit card invoices against an external ERP for a financial BPO team, replacing a manual, spreadsheet-based process. A reconciliation that used to take hours now runs in 5 to 15 minutes. Async FastAPI backend (SQLAlchemy 2.0, PostgreSQL, Pydantic v2) and a Next.js 14 frontend in TypeScript.",
       },
       {
-        pt: "Desenvolvimento de pipelines de dados e automações na Google Cloud Platform (GCP).",
-        en: "Development of data pipelines and automations on Google Cloud Platform (GCP).",
+        pt: "Desenvolvimento de um pipeline de extração sobre a Claude API (tool-use e structured outputs) que transforma extratos e faturas desorganizados em transações estruturadas, com um motor de matching determinístico que trata tolerância de valor e data e sinaliza anomalias.",
+        en: "Built an extraction pipeline on top of the Claude API (tool-use and structured outputs) that turns messy bank statements and card invoices into structured transactions, paired with a deterministic matching engine that handles value and date tolerance and flags anomalies.",
       },
       {
-        pt: "Desenvolvimento de back-end e integração de serviços em nuvem.",
-        en: "Back-end development and cloud services integration.",
+        pt: "Implementação de segurança na camada de dados: criptografia AES-256-GCM em nível de campo, autenticação JWT com controle de acesso por papel e isolamento por cliente, e redação de dados sensíveis nos logs.",
+        en: "Implemented security at the data layer: field-level AES-256-GCM encryption, JWT authentication with role-based access and per-client isolation, and redaction of sensitive data in logs.",
+      },
+      {
+        pt: "Configuração do pipeline de entrega: serviços conteinerizados e deployados no Google Cloud Run via GitHub Actions, com quality gates (ruff, mypy strict, pytest, pip-audit) e testes baseados em propriedades barrando builds ruins.",
+        en: "Set up the delivery pipeline: containerized services deployed to Google Cloud Run through GitHub Actions, with quality gates (ruff, mypy strict, pytest, pip-audit) and property-based tests blocking bad builds.",
+      },
+      {
+        pt: "Construção e manutenção de pipelines de extração de dados em larga escala no GCP, estruturando dados brutos para os dashboards de Power BI usados pelo time de dados.",
+        en: "Built and maintained large-scale data extraction pipelines on GCP that structure raw data for the Power BI dashboards the data team relies on.",
       },
     ],
   },
@@ -74,28 +82,24 @@ export const experiences: ExperienceEntry[] = [
     isCurrent: true,
     description: [
       {
-        pt: "Desenvolvimento e manutenção de endpoints back-end para regras de negócio e operações de banco de dados.",
-        en: "Built and maintained back-end endpoints to handle business logic and database operations.",
+        pt: "Engenheiro backend único de uma plataforma imobiliária de venda de imóveis prontos e lançamentos (lotes e apartamentos), responsável pela API que serve tanto o site público quanto o sistema interno de gestão, em Node.js, TypeScript e PostgreSQL.",
+        en: "Sole backend engineer for a real estate platform selling ready properties and pre-construction developments (lots and apartments), building the API that powered both the public site and the internal management system with Node.js, TypeScript, and PostgreSQL.",
       },
       {
-        pt: "Integração de APIs externas e documentação detalhada com Swagger.",
-        en: "Integrated external APIs and developed detailed documentation with Swagger.",
+        pt: "Backend do sistema interno de gestão: cadastro de imóveis, cadastro de funcionários e controle de acesso por papel (RBAC), usado diariamente por um time de 5 a 10 pessoas.",
+        en: "Built the internal management system's backend: property registration, staff registration, and role-based access control (RBAC), used daily by a team of 5 to 10 people.",
       },
       {
-        pt: "Criação de testes unitários para validar e garantir a confiabilidade das funcionalidades.",
-        en: "Created unit tests to validate and ensure feature reliability.",
+        pt: "Integração ponta a ponta de serviços de terceiros: Asaas para pagamentos, DocuSign para assinatura de documentos e Tiny para ERP, com cache em Redis para manter consultas frequentes rápidas.",
+        en: "Integrated third-party services end to end: Asaas for payments, DocuSign for document signing, and Tiny for ERP, with Redis caching to keep frequent queries fast.",
       },
       {
-        pt: "Contribuição no front-end com React.js, Next.js e TailwindCSS.",
-        en: "Contributed to front-end development using React.js, Next.js, and TailwindCSS.",
+        pt: "Adaptação de todo o backend para rodar na Vercel após a padronização do time na plataforma, incluindo a resolução de um setup de Swagger que o ambiente serverless não suportava de imediato.",
+        en: "Got the entire backend running on Vercel after the team standardized on it, including fixing a broken Swagger setup that the serverless environment didn't support out of the box.",
       },
       {
-        pt: "Deploy e gerenciamento de projetos na Vercel, garantindo estabilidade e escalabilidade.",
-        en: "Deployed and managed projects on Vercel, ensuring stability and scalability.",
-      },
-      {
-        pt: "Suporte à integração com serviços em nuvem AWS.",
-        en: "Supported AWS cloud integration for system resources.",
+        pt: "Atuação em um time de 4 a 5 desenvolvedores e uma designer, com entregas acompanhadas no Jira e deploy de tudo na Vercel.",
+        en: "Worked in a team of 4 to 5 developers and a designer, tracking delivery in Jira and deploying everything on Vercel.",
       },
     ],
   },
@@ -111,16 +115,12 @@ export const experiences: ExperienceEntry[] = [
     period: "Fev 2023 – Abr 2025",
     description: [
       {
-        pt: "Desenvolvimento de aplicação web utilizando React.js, Next.js, React Native e TailwindCSS.",
-        en: "Developed a web application using React.js, Next.js, React Native, and TailwindCSS.",
+        pt: "Construção de telas front-end responsivas para um marketplace de carros usados com React, Next.js e TailwindCSS, implementando as interfaces a partir de designs no Figma.",
+        en: "Built responsive front-end screens for a used-car marketplace with React, Next.js, and TailwindCSS, implementing the interfaces from Figma designs.",
       },
       {
-        pt: "Foco em design responsivo e melhorias na experiência do usuário.",
-        en: "Focused on responsive design and user experience improvements.",
-      },
-      {
-        pt: "Colaboração próxima com a equipe para alinhar soluções técnicas com as necessidades do negócio.",
-        en: "Collaborated closely with the company team to align technical solutions with business requirements.",
+        pt: "Colaboração próxima com o time para entregar as features solicitadas e manter a UI consistente em toda a plataforma.",
+        en: "Worked closely with the team to deliver the requested features and keep the UI consistent across the platform.",
       },
     ],
   },
@@ -136,16 +136,16 @@ export const experiences: ExperienceEntry[] = [
     period: "Dez 2022 – Ago 2023",
     description: [
       {
-        pt: "Condução de entrevistas técnicas para processos seletivos de bolsas B2B com empresas parceiras.",
-        en: "Conducted technical interviews for B2B scholarship selection processes with partner companies.",
+        pt: "Condução de entrevistas técnicas para um programa de bolsas B2B, com média de 5 a 6 entrevistas por dia e avaliação de mais de 100 candidatos em JavaScript e resolução de problemas.",
+        en: "Ran technical interviews for a B2B scholarship program, averaging 5 to 6 interviews a day and assessing over 100 candidates on their JavaScript skills and problem-solving.",
       },
       {
-        pt: "Revisão de códigos em JavaScript submetidos por candidatos e avaliação das capacidades técnicas.",
-        en: "Reviewed JavaScript code submitted by candidates and evaluated technical capabilities.",
+        pt: "Revisão de submissões de código e feedback estruturado que alimentava as decisões de seleção.",
+        en: "Reviewed code submissions and gave structured feedback that fed into selection decisions.",
       },
       {
-        pt: "Fornecimento de feedback e contribuição na seleção de candidatos promissores.",
-        en: "Provided feedback and contributed to the selection of promising candidates.",
+        pt: "Contribuição na seleção de candidatos que seguiram para os programas com empresas parceiras.",
+        en: "Helped select candidates who moved on to partner-company programs.",
       },
     ],
   },
@@ -161,16 +161,12 @@ export const experiences: ExperienceEntry[] = [
     period: "Fev 2020 – Mai 2020",
     description: [
       {
-        pt: "Gestão de relacionamento com fornecedores, negociação e compras de suprimentos de mineração.",
-        en: "Managed supplier relations, negotiation, and purchasing of mining supplies.",
+        pt: "Gestão de relacionamento com fornecedores e condução de cotações e negociações para suprimentos e serviços de mineração.",
+        en: "Managed supplier relations and ran quotations and negotiations for mining supplies and services.",
       },
       {
-        pt: "Controle de custos e análise de despesas com suprimentos.",
-        en: "Performed cost management and analysis of supply expenses.",
-      },
-      {
-        pt: "Realização de cotações e negociações para serviços e equipamentos.",
-        en: "Conducted quotations and negotiations for services and equipment.",
+        pt: "Controle de pedidos de compra, validação de notas fiscais e análise de custos de suprimentos com Excel.",
+        en: "Tracked purchase orders, validated invoices, and analyzed supply costs using Excel.",
       },
     ],
   },
