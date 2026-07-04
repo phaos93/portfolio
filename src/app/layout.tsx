@@ -18,13 +18,13 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Pedro Henrique | Full Stack Developer",
+    default: "Pedro Henrique | Full Stack Engineer",
     template: "%s | Pedro Henrique",
   },
   description:
-    "Desenvolvedor Full Stack de Salvador, Bahia. Especialista em TypeScript, React, Next.js, Node.js e soluções em nuvem.",
+    "Engenheiro Full Stack de Salvador, Bahia. Especialista em TypeScript, React, Next.js, Node.js e soluções em nuvem.",
   keywords: [
-    "Full Stack Developer",
+    "Full Stack Engineer",
     "React",
     "Next.js",
     "TypeScript",
@@ -33,13 +33,13 @@ export const metadata: Metadata = {
     "Bahia",
     "Brazil",
     "Portfolio",
-    "Desenvolvedor",
+    "Engenheiro",
   ],
   authors: [{ name: "Pedro Henrique Araújo Oliveira Silva" }],
   openGraph: {
-    title: "Pedro Henrique | Full Stack Developer",
+    title: "Pedro Henrique | Full Stack Engineer",
     description:
-      "Full Stack Developer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
+      "Full Stack Engineer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
     type: "website",
     locale: "pt_BR",
     alternateLocale: "en_US",
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pedro Henrique | Full Stack Developer",
+    title: "Pedro Henrique | Full Stack Engineer",
     description:
-      "Full Stack Developer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
+      "Full Stack Engineer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
   },
   robots: { index: true, follow: true },
 };

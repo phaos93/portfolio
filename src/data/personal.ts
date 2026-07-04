@@ -3,8 +3,8 @@ import type { PersonalInfo, NavLink } from "@/types";
 export const personalInfo: PersonalInfo = {
   name: "Pedro Henrique Araújo Oliveira Silva",
   title: {
-    pt: "Desenvolvedor Full Stack",
-    en: "Full Stack Developer",
+    pt: "Engenheiro Full Stack",
+    en: "Full Stack Engineer",
   },
   email: "phaos93@gmail.com",
   phone: "+55 (71) 9 8190-3434",
@@ -13,8 +13,8 @@ export const personalInfo: PersonalInfo = {
     en: "Salvador, Bahia, Brazil",
   },
   bio: {
-    pt: "Desenvolvedor Full Stack com formação em Engenharia Ambiental e mais de 3 anos de experiência em desenvolvimento de software. Especialista em construir aplicações escaláveis com TypeScript, React, Next.js e Node.js.",
-    en: "Full Stack Developer with a background in Environmental Engineering and over 3 years of experience in software development. Specialized in building scalable applications with TypeScript, React, Next.js, and Node.js.",
+    pt: "Engenheiro Full Stack com formação em Engenharia Ambiental e mais de 3 anos de experiência em desenvolvimento de software. Especialista em construir aplicações escaláveis com TypeScript, React, Next.js e Node.js.",
+    en: "Full Stack Engineer with a background in Environmental Engineering and over 3 years of experience in software development. Specialized in building scalable applications with TypeScript, React, Next.js, and Node.js.",
   },
   github: "https://github.com/phaos93",
   linkedin: "https://www.linkedin.com/in/pedro-araujo-silva/",
@@ -31,13 +31,13 @@ export const navLinks: NavLink[] = [
 
 export const heroSubtitles = {
   pt: [
-    "Full Stack Developer",
+    "Full Stack Engineer",
     "TypeScript Enthusiast",
     "Backend Architect",
     "Salvador, BA 🇧🇷",
   ],
   en: [
-    "Full Stack Developer",
+    "Full Stack Engineer",
     "TypeScript Enthusiast",
     "Backend Architect",
     "Salvador, BA 🇧🇷",

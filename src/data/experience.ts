@@ -7,8 +7,8 @@ export const experiences: ExperienceEntry[] = [
       en: "Max Vitaly",
     },
     role: {
-      pt: "Backend Developer",
-      en: "Backend Developer",
+      pt: "Engenheiro de Software",
+      en: "Software Engineer",
     },
     period: "Jan 2026 – Present",
     isCurrent: true,
@@ -67,8 +67,8 @@ export const experiences: ExperienceEntry[] = [
       en: "Minha Casa Construída LTDA",
     },
     role: {
-      pt: "Desenvolvedor Full Stack",
-      en: "Full Stack Developer",
+      pt: "Engenheiro Backend",
+      en: "Backend Engineer",
     },
     period: "Set 2023 – Present",
     isCurrent: true,
@@ -105,8 +105,8 @@ export const experiences: ExperienceEntry[] = [
       en: "Riderauto",
     },
     role: {
-      pt: "Desenvolvedor Front-End (Contratado)",
-      en: "Front-End Developer (Contractor)",
+      pt: "Engenheiro Front-End (Contratado)",
+      en: "Front-End Engineer (Contractor)",
     },
     period: "Fev 2023 – Abr 2025",
     description: [
