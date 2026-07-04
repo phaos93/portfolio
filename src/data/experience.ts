@@ -70,7 +70,7 @@ export const experiences: ExperienceEntry[] = [
       pt: "Desenvolvedor Full Stack",
       en: "Full Stack Developer",
     },
-    period: "Nov 2023 – Present",
+    period: "Set 2023 – Present",
     isCurrent: true,
     description: [
       {
@@ -108,7 +108,7 @@ export const experiences: ExperienceEntry[] = [
       pt: "Desenvolvedor Front-End (Contratado)",
       en: "Front-End Developer (Contractor)",
     },
-    period: "Jan 2024 – Dez 2024",
+    period: "Fev 2023 – Abr 2025",
     description: [
       {
         pt: "Desenvolvimento de aplicação web utilizando React.js, Next.js, React Native e TailwindCSS.",
