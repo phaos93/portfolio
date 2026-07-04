@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     description:
       "Full Stack Engineer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
     type: "website",
-    locale: "pt_BR",
-    alternateLocale: "en_US",
+    locale: "en_US",
+    alternateLocale: "pt_BR",
     siteName: "Pedro Henrique Portfolio",
   },
   twitter: {
@@ -61,7 +61,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="pt-BR"
+      lang="en"
       className={`${inter.variable} ${jetbrainsMono.variable}`}
       suppressHydrationWarning
     >
