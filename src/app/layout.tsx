@@ -18,13 +18,13 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Pedro Henrique | Full Stack Engineer",
+    default: "Pedro Henrique | Senior Full Stack Engineer",
     template: "%s | Pedro Henrique",
   },
   description:
-    "Engenheiro Full Stack de Salvador, Bahia. Especialista em TypeScript, React, Next.js, Node.js e soluções em nuvem.",
+    "Engenheiro Full Stack Sênior de Salvador, Bahia. Especialista em TypeScript, React, Next.js, Node.js e soluções em nuvem.",
   keywords: [
-    "Full Stack Engineer",
+    "Senior Full Stack Engineer",
     "React",
     "Next.js",
     "TypeScript",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Pedro Henrique Araújo Oliveira Silva" }],
   openGraph: {
-    title: "Pedro Henrique | Full Stack Engineer",
+    title: "Pedro Henrique | Senior Full Stack Engineer",
     description:
-      "Full Stack Engineer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
+      "Senior Full Stack Engineer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
     type: "website",
     locale: "en_US",
     alternateLocale: "pt_BR",
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pedro Henrique | Full Stack Engineer",
+    title: "Pedro Henrique | Senior Full Stack Engineer",
     description:
-      "Full Stack Engineer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
+      "Senior Full Stack Engineer from Salvador, Bahia. Specialized in TypeScript, React, Next.js, Node.js, and cloud solutions.",
   },
   robots: { index: true, follow: true },
 };

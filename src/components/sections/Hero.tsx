@@ -103,7 +103,7 @@ export function Hero() {
             <div className="gradient-border relative overflow-hidden rounded-2xl">
               <Image
                 src={`${basePath}/profilepic.jpg`}
-                alt="Pedro Henrique - Full Stack Engineer"
+                alt="Pedro Henrique - Senior Full Stack Engineer"
                 width={400}
                 height={400}
                 priority

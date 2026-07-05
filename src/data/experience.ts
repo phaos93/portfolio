@@ -41,8 +41,8 @@ export const experiences: ExperienceEntry[] = [
       en: "Hologram",
     },
     role: {
-      pt: "Engenheiro de Software",
-      en: "Software Engineer",
+      pt: "Engenheiro de Software Sênior",
+      en: "Senior Software Engineer",
     },
     period: "Dez 2025 – Present",
     isCurrent: true,
@@ -75,10 +75,10 @@ export const experiences: ExperienceEntry[] = [
       en: "Minha Casa Construída LTDA",
     },
     role: {
-      pt: "Engenheiro Backend",
-      en: "Backend Engineer",
+      pt: "Engenheiro Backend Sênior",
+      en: "Senior Backend Engineer",
     },
-    period: "Set 2023 – Jul 2026",
+    period: "Mar 2021 – Jul 2026",
     description: [
       {
         pt: "Engenheiro backend único de uma plataforma imobiliária de venda de imóveis prontos e lançamentos (lotes e apartamentos), responsável pela API que serve tanto o site público quanto o sistema interno de gestão, em Node.js, TypeScript e PostgreSQL.",
